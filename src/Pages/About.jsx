@@ -6,11 +6,11 @@ const About = () => {
   return (
     <>
       <body>
-        <div className="container-fluid">
+        <div className="container">
 
           <nav class="navbar navbar-expand-lg bg-sucess">
             <div class="container-fluid">
-             <Link className='navbar-brand' to={'/'}><i class="fa-solid fa-arrow-left p-2"></i>Home</Link>
+              <Link className='navbar-brand' to={'/'}><i class="fa-solid fa-arrow-left p-2"></i>Home</Link>
 
             </div>
           </nav>
@@ -21,7 +21,7 @@ const About = () => {
 
         <div className=" about container-fluid mt-2 ">
           <div className="row">
-                
+
             <div className="col-6 mt-3 p-5">
               <p> <strong className='text-decoration-underline'>About Us </strong><br />Here’s an "About Us" section draft for your portfolio, Santhosh:
 
@@ -41,9 +41,9 @@ const About = () => {
                 Feel free to customize it further based on your style or achievements! <i class="fa-solid fa-cloud-moon"></i></p>
 
             </div>
-           <div className="col-6">
-            <img  className = 'img-fluid mb-2 mt-3' src="src\assets\about.png" alt="" />
-           </div>
+            <div className="col-6">
+              <img className='img-fluid mb-2 mt-3' src="src\assets\about.png" alt="" />
+            </div>
           </div>
 
         </div>
